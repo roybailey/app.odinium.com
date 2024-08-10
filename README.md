@@ -11,6 +11,7 @@ See https://github.com/rafgraph/spa-github-pages/tree/gh-pages for how to get SP
 
 * copy all distribution files into `/docs` folder
 * check `/docs/404.html` is the same as the `/404.html` template (it should be as it's generic)
+* modify `/docs/index.html` to reference with path prefix `/app.odinium.com` for the SPA js and css links
 * copy the code block from `/index.html` into `/docs/index.html` to handle the SPA location, see below
 
 ```html
